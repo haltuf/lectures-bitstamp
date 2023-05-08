@@ -1,0 +1,4 @@
+.secret.php
+vendor/
+composer.lock
+.idea/
