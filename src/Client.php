@@ -20,7 +20,7 @@ class Client
 
 	public function getTicker(string $pair): array
 	{
-		return $this->sendRequest('/api/v2/ticker/btcusd/');
+		return $this->sendRequest('/api/v2/ticker/' . $pair . '/');
 	}
 
 	public function getTradingFees(): array
